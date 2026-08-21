@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-        <img class="story-portrait" src="assets/images/skylar-portrait.png" alt="Skylar Archer with her family" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Skylar's Hope For Change brings mobile care, recovery support, housing pathways, and acts of kindness to people in Phoenix, Arizona." />
+  <title>Skylar's Hope For Change | Phoenix Nonprofit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
   <nav class="nav" role="navigation" aria-label="Main navigation">
     <div class="nav-inner">
       <a href="index.html" class="nav-logo" aria-label="Skylar's Hope For Change — Home">
@@ -14,426 +25,102 @@
         <a href="get-involved.html">Get Involved</a>
         <a href="contact.html">Contact</a>
       </div>
-      <div class="nav-cta">
-        <a href="donate.html" class="btn btn-primary">Donate Now</a>
-      </div>
-      <button class="nav-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-mobile">
-        <span></span><span></span><span></span>
-      </button>
+      <div class="nav-cta"><a href="donate.html" class="btn btn-primary">Donate Now</a></div>
+      <button class="nav-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-mobile"><span></span><span></span><span></span></button>
     </div>
     <div class="nav-mobile" id="nav-mobile">
-      <a href="index.html">Home</a>
-      <a href="about.html">Our Story</a>
-      <a href="programs.html">Programs</a>
-      <a href="get-involved.html">Get Involved</a>
-      <a href="donate.html">Donate Now</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html">Home</a><a href="about.html">Our Story</a><a href="programs.html">Programs</a><a href="get-involved.html">Get Involved</a><a href="donate.html">Donate Now</a><a href="contact.html">Contact</a>
     </div>
   </nav>
 
   <main id="main-content">
-
-    <!-- ══ HERO ═══════════════════════════════════════ -->
-    <!--
-      PHOTO: Add a real background image here for maximum impact.
-      Replace the .hero-bg gradient with:
-        background-image: url('assets/images/hero-background.jpg');
-        background-size: cover;
-        background-position: center;
-      Suggested photo: Arizona landscape, a mobile outreach van, or community volunteers.
-    -->
     <section class="hero" aria-label="Hero">
       <div class="hero-bg" aria-hidden="true"></div>
-      <div class="hero-logo-watermark" aria-hidden="true">
-        <img src="assets/images/logo.png" alt="" />
-      </div>
-      <div class="container hero-content">
-        <p class="hero-eyebrow">Phoenix, Arizona — Est. 2017</p>
-        <h1>Turning <em>Grief</em> Into Action.<br>Bringing Hope Where It's<br>Needed Most.</h1>
-        <p class="hero-sub">
-          Skylar's Hope For Change is a Phoenix-based nonprofit initiative created to bring
-          mobile care, recovery support, housing pathways, and acts of kindness directly to people
-          impacted by addiction, homelessness, trauma, and despair.
-        </p>
-        <div class="btn-group">
-          <a href="donate.html" class="btn btn-primary btn-lg">Donate Now</a>
-          <a href="get-involved.html#volunteer" class="btn btn-outline btn-lg">Volunteer</a>
+      <div class="container" style="position:relative;z-index:2;width:100%;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(360px,.92fr);gap:48px;align-items:center;padding-top:80px;padding-bottom:80px;">
+        <div>
+          <h1>Turning <em>Grief</em> Into Action.<br>Bringing Hope Where It's<br>Needed Most.</h1>
+          <p class="hero-sub">Skylar's Hope For Change is a Phoenix-based nonprofit initiative created to bring mobile care, recovery support, housing pathways, and acts of kindness directly to people impacted by addiction, homelessness, trauma, and despair.</p>
+          <div class="btn-group">
+            <a href="donate.html" class="btn btn-primary btn-lg">Donate Now</a>
+            <a href="get-involved.html#volunteer" class="btn btn-outline btn-lg">Volunteer</a>
+          </div>
         </div>
-        <div class="hero-stats">
-          <div class="hero-stat-item">
-            <div class="hero-stat-num">2017</div>
-            <div class="hero-stat-label">Year Founded</div>
-          </div>
-          <div class="hero-stat-item">
-            <div class="hero-stat-num">18+</div>
-            <div class="hero-stat-label">Early Supporters</div>
-          </div>
-          <div class="hero-stat-item">
-            <div class="hero-stat-num">6</div>
-            <div class="hero-stat-label">Core Programs</div>
-          </div>
-          <div class="hero-stat-item">
-            <div class="hero-stat-num">Phoenix</div>
-            <div class="hero-stat-label">Based, AZ</div>
-          </div>
+        <div style="display:flex;align-items:center;justify-content:center;min-height:430px;">
+          <img src="assets/images/logo.png" alt="Skylar's Hope For Change — Saving lives through hope, healing, and recovery — Phoenix, Arizona" style="display:block;width:min(100%,620px);height:auto;object-fit:contain;filter:drop-shadow(0 18px 30px rgba(0,0,0,.22));" />
         </div>
       </div>
     </section>
 
-    <!-- ══ MISSION ════════════════════════════════════ -->
     <section class="section" aria-labelledby="mission-heading">
-      <div class="container">
-        <div class="mission-layout">
-          <div class="fade-up">
-            <span class="section-label">Our Mission</span>
-            <h2 id="mission-heading" class="section-title">Meeting People<br>Where They Are</h2>
-            <div class="divider"></div>
-            <p class="section-intro">
-              Skylar's Hope For Change exists to meet people where they are — in recovery centers,
-              underserved neighborhoods, homeless encampments, safe zones, and communities where
-              help is often out of reach.
-            </p>
-            <p>
-              Through mobile health outreach, recovery support, transitional housing, and community
-              partnerships, the organization is building practical pathways back to dignity,
-              stability, and hope.
-            </p>
-            <div class="btn-group mt-4">
-              <a href="programs.html" class="btn btn-secondary">See Our Programs</a>
-              <a href="about.html" class="btn btn-outline-navy">Read Our Story</a>
-            </div>
-          </div>
-          <div class="fade-up">
-            <div class="mission-quote-box">
-              <span class="big-q" aria-hidden="true">"</span>
-              <blockquote>
-                "We don't wait for people to walk through a door that may not be accessible to them.
-                We bring the door to them — wherever they are, whatever they're carrying."
-              </blockquote>
-              <cite>— John Archer, Founder</cite>
-            </div>
-          </div>
+      <div class="container"><div class="mission-layout">
+        <div class="fade-up">
+          <span class="section-label">Our Mission</span>
+          <h2 id="mission-heading" class="section-title">Meeting People<br>Where They Are</h2><div class="divider"></div>
+          <p class="section-intro">Skylar's Hope For Change exists to meet people where they are — in recovery centers, underserved neighborhoods, homeless encampments, safe zones, and communities where help is often out of reach.</p>
+          <p>Through mobile health outreach, recovery support, transitional housing, and community partnerships, the organization is building practical pathways back to dignity, stability, and hope.</p>
+          <div class="btn-group mt-4"><a href="programs.html" class="btn btn-secondary">See Our Programs</a><a href="about.html" class="btn btn-outline-navy">Read Our Story</a></div>
         </div>
-      </div>
+        <div class="fade-up"><div class="mission-quote-box"><span class="big-q" aria-hidden="true">“</span><blockquote>“We don't wait for people to walk through a door that may not be accessible to them. We bring the door to them — wherever they are, whatever they're carrying.”</blockquote><cite>— John Archer, Founder</cite></div></div>
+      </div></div>
     </section>
 
-    <!-- ══ SKYLAR'S STORY PREVIEW ══════════════════════ -->
     <section class="section bg-off-white" aria-labelledby="story-heading">
       <div class="story-wrap">
-        <!--
-          PHOTO PLACEHOLDER: Add a photo of Skylar here.
-          Replace this entire .photo-placeholder div with:
-          <img src="assets/images/skylar-photo.jpg"
-               alt="Skylar Archer"
-               style="border-radius: var(--radius-lg); width: 100%; height: 100%; object-fit: cover;" />
-        -->
-        <div class="photo-placeholder" aria-label="Photo of Skylar — to be added">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-            <circle cx="8.5" cy="8.5" r="1.5"/>
-            <polyline points="21 15 16 10 5 21"/>
-          </svg>
-          <span class="ph-label">Skylar's Photo</span>
-          Add a photo of Skylar here.<br>
-          Contact John Archer to obtain family-approved images for this section.
-        </div>
-        <div>
-          <span class="section-label">The Story Behind the Mission</span>
-          <h2 id="story-heading" class="section-title">She Was<br>Someone's Everything.</h2>
-          <div class="divider"></div>
-          <p>
-            In 2017, founder John Archer lost his daughter Skylar to a fentanyl-heroin overdose.
-            That loss became the foundation for a larger mission: to fight back against addiction,
-            homelessness, and hopelessness with action, compassion, and real community support.
-          </p>
-          <p>
-            Skylar's Hope For Change carries her name as a promise — that her passing will not
-            be the end of the story, but the beginning of something that gives others a chance
-            to write their own.
-          </p>
-          <div class="placeholder-box">
-            <p>
-              <strong>Coming Soon:</strong> More of Skylar's story, photos, and personal
-              memories will be shared here with the family's full permission. If you have a
-              memory of Skylar you'd like to contribute, please reach out.
-            </p>
-          </div>
-          <div class="btn-group mt-4">
-            <a href="about.html" class="btn btn-secondary">Read the Full Story</a>
-          </div>
+        <img class="story-portrait" src="assets/images/skylar-portrait.png" alt="Skylar Archer with her family" style="display:block;width:100%;height:auto;object-fit:cover;border-radius:var(--radius-lg);" />
+        <div><span class="section-label">The Story Behind the Mission</span><h2 id="story-heading" class="section-title">She Was<br>Someone's Everything.</h2><div class="divider"></div>
+          <p>In 2017, founder John Archer lost his daughter Skylar to a fentanyl-heroin overdose. That loss became the foundation for a larger mission: to fight back against addiction, homelessness, and hopelessness with action, compassion, and real community support.</p>
+          <p>Skylar's Hope For Change carries her name as a promise — that her passing will not be the end of the story, but the beginning of something that gives others a chance to write their own.</p>
+          <div class="btn-group mt-4"><a href="about.html" class="btn btn-secondary">Read the Full Story</a></div>
         </div>
       </div>
     </section>
 
-    <!-- ══ PROGRAMS CARDS ══════════════════════════════ -->
     <section class="section" aria-labelledby="programs-heading">
       <div class="container">
-        <div class="text-center fade-up" style="margin-bottom: 52px;">
-          <span class="section-label">What We Do</span>
-          <h2 id="programs-heading" class="section-title">Our Programs</h2>
-          <div class="divider divider-center"></div>
-          <p class="section-intro">
-            Six core areas of service, each designed to meet real needs with real action —
-            not bureaucracy, not waiting lists.
-          </p>
-        </div>
-
+        <div class="text-center fade-up" style="margin-bottom:52px;"><span class="section-label">What We Do</span><h2 id="programs-heading" class="section-title">Our Programs</h2><div class="divider divider-center"></div><p class="section-intro">Six core areas of service designed to meet real needs with direct, practical action.</p></div>
         <div class="grid-3">
-          <article class="card fade-up">
-            <div class="card-icon" aria-hidden="true">
-              <!-- Mobile / medical icon -->
-              <svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-            </div>
-            <h3>Mobile Dental &amp; Medical Outreach</h3>
-            <p>Donated mobile buses bring dental and medical care directly to homeless encampments, sober houses, and underserved neighborhoods across Phoenix.</p>
-          </article>
-
-          <article class="card fade-up">
-            <div class="card-icon" aria-hidden="true">
-              <!-- Heart/recovery icon -->
-              <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-            </div>
-            <h3>Addiction Recovery Support</h3>
-            <p>Connecting individuals in active recovery with resources, community, counseling partnerships, and pathways toward stable long-term sobriety.</p>
-          </article>
-
-          <article class="card fade-up">
-            <div class="card-icon" aria-hidden="true">
-              <!-- Home icon -->
-              <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-            </div>
-            <h3>Transitional &amp; Sober Housing</h3>
-            <p>Supporting halfway houses, three-quarter houses, safe houses, and sober living environments — opening doors to stable housing for people in recovery.</p>
-          </article>
-
-          <article class="card fade-up">
-            <div class="card-icon" aria-hidden="true">
-              <!-- Shield/veteran icon -->
-              <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            </div>
-            <h3>Veteran &amp; PTSD Support</h3>
-            <p>Dedicated outreach to veterans experiencing homelessness, PTSD, addiction, and mental health challenges — connecting them to housing and specialized care.</p>
-          </article>
-
-          <article class="card fade-up">
-            <div class="card-icon" aria-hidden="true">
-              <!-- People/outreach icon -->
-              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-            </div>
-            <h3>Homeless Outreach</h3>
-            <p>Direct engagement with homeless encampments and safe zones, delivering supplies, care, and human connection in places where most services don't reach.</p>
-          </article>
-
-          <article class="card fade-up">
-            <div class="card-icon" aria-hidden="true">
-              <!-- Globe/partnership icon -->
-              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-            </div>
-            <h3>Community Partnerships</h3>
-            <p>Building alliances with churches, local businesses, mental health providers, dental professionals, and nonprofit partners to multiply impact across Arizona.</p>
-          </article>
+          <article class="card fade-up"><div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h3>Mobile Dental &amp; Medical Outreach</h3><p>Mobile care brings dental and medical services directly to homeless encampments, sober houses, and underserved Phoenix neighborhoods.</p></article>
+          <article class="card fade-up"><div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l7.78-7.78a5.5 5.5 0 0 0 1.06-8.84z"/></svg></div><h3>Addiction Recovery Support</h3><p>Connecting people in recovery with resources, community, counseling partnerships, and pathways toward stable long-term sobriety.</p></article>
+          <article class="card fade-up"><div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><h3>Transitional &amp; Sober Housing</h3><p>Supporting safe and sober living environments that open doors to stable housing for people rebuilding their lives.</p></article>
+          <article class="card fade-up"><div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Veteran &amp; PTSD Support</h3><p>Dedicated outreach connecting veterans facing homelessness, PTSD, addiction, and mental-health challenges with specialized resources.</p></article>
+          <article class="card fade-up"><div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg></div><h3>Homeless Outreach</h3><p>Direct engagement delivering supplies, care, resource connections, and human connection where conventional services often do not reach.</p></article>
+          <article class="card fade-up"><div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div><h3>Community Partnerships</h3><p>Building alliances with churches, businesses, mental-health providers, medical professionals, and nonprofit partners across Arizona.</p></article>
         </div>
-
-        <div class="text-center mt-6">
-          <a href="programs.html" class="btn btn-outline-navy">Explore All Programs</a>
-        </div>
+        <div class="text-center mt-6"><a href="programs.html" class="btn btn-outline-navy">Explore All Programs</a></div>
       </div>
     </section>
 
-    <!-- ══ IMPACT VISION ══════════════════════════════ -->
     <section class="section bg-navy on-dark" aria-labelledby="impact-heading">
-      <div class="container">
-        <div style="display:grid; grid-template-columns: 1fr 1.1fr; gap: 64px; align-items: center;">
-          <div class="fade-up">
-            <span class="section-label">Your Support Funds</span>
-            <h2 id="impact-heading" class="section-title">What Your Support Helps Build</h2>
-            <div class="divider"></div>
-            <p>
-              Every dollar moves this mission from vision to action — buses on the road,
-              supplies in hand, housing doors opened, and people given another real chance.
-            </p>
-            <div class="btn-group mt-4">
-              <a href="donate.html" class="btn btn-primary">Support the Mission</a>
-              <a href="get-involved.html" class="btn btn-outline">Get Involved</a>
-            </div>
-          </div>
-          <div class="impact-grid fade-up">
-            <div class="impact-item">
-              <div class="impact-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
-              </div>
-              <p>Fuel &amp; insurance for mobile outreach vehicles</p>
-            </div>
-            <div class="impact-item">
-              <div class="impact-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-              </div>
-              <p>Dental &amp; medical supplies for outreach buses</p>
-            </div>
-            <div class="impact-item">
-              <div class="impact-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-              </div>
-              <p>Safe housing startup costs for transitional programs</p>
-            </div>
-            <div class="impact-item">
-              <div class="impact-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-              </div>
-              <p>Recovery resource coordination &amp; case support</p>
-            </div>
-            <div class="impact-item">
-              <div class="impact-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-              </div>
-              <p>Volunteer outreach training &amp; coordination</p>
-            </div>
-            <div class="impact-item">
-              <div class="impact-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
-              </div>
-              <p>Nonprofit &amp; 501(c)(3) development costs</p>
-            </div>
-            <div class="impact-item">
-              <div class="impact-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
-              </div>
-              <p>Community awareness campaigns &amp; education</p>
-            </div>
-            <div class="impact-item">
-              <div class="impact-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-              </div>
-              <p>Veteran housing support &amp; PTSD resources</p>
-            </div>
-          </div>
+      <div class="container"><div style="display:grid;grid-template-columns:1fr 1.1fr;gap:64px;align-items:center;">
+        <div class="fade-up"><span class="section-label">Your Support Funds</span><h2 id="impact-heading" class="section-title">What Your Support Helps Build</h2><div class="divider"></div><p>Every dollar moves this mission from vision to action — buses on the road, supplies in hand, housing doors opened, and people given another real chance.</p><div class="btn-group mt-4"><a href="donate.html" class="btn btn-primary">Support the Mission</a><a href="get-involved.html" class="btn btn-outline">Get Involved</a></div></div>
+        <div class="impact-grid fade-up">
+          <div class="impact-item"><div class="impact-icon"><svg viewBox="0 0 24 24"><path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7V8z"/></svg></div><p>Fuel &amp; insurance for mobile outreach vehicles</p></div>
+          <div class="impact-item"><div class="impact-icon"><svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><p>Dental &amp; medical supplies for outreach</p></div>
+          <div class="impact-item"><div class="impact-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11H3z"/></svg></div><p>Safe housing startup costs</p></div>
+          <div class="impact-item"><div class="impact-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="13"/></svg></div><p>Recovery resource coordination &amp; case support</p></div>
+          <div class="impact-item"><div class="impact-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div><p>Volunteer outreach training &amp; coordination</p></div>
+          <div class="impact-item"><div class="impact-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><p>Veteran housing support &amp; PTSD resources</p></div>
         </div>
-      </div>
+      </div></div>
     </section>
 
-    <!-- ══ DONATION CTA ═══════════════════════════════ -->
-    <section class="donation-band" aria-labelledby="donate-cta-heading">
-      <div class="container">
-        <span class="section-label" style="color: rgba(255,255,255,0.7);">GoFundMe Campaign Active</span>
-        <h2 id="donate-cta-heading">Help Put Hope Into Motion</h2>
-        <p>
-          Every donation helps move this mission from vision to action — buses on the road,
-          supplies in hand, housing doors opened, and people given another real chance.
-        </p>
-        <div class="btn-group" style="justify-content: center; gap: 14px;">
-          <a href="https://gofund.me/284ebbb2e" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">
-            Support the Mission on GoFundMe
-          </a>
-          <a href="donate.html" class="btn btn-secondary btn-lg">Learn How to Give</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ══ VOLUNTEER / PARTNER ════════════════════════ -->
-    <section class="section bg-navy on-dark" aria-labelledby="volunteer-heading">
-      <div class="container">
-        <div class="text-center fade-up" style="max-width: 600px; margin: 0 auto 52px;">
-          <span class="section-label">Join the Mission</span>
-          <h2 id="volunteer-heading" class="section-title">We Need You</h2>
-          <div class="divider divider-center"></div>
-          <p>
-            This work only happens because people show up. Whether you have skills, time,
-            a property, or a network — there's a place for you here.
-          </p>
-        </div>
-
-        <div class="audience-grid fade-up">
-          <div class="audience-chip">Volunteers</div>
-          <div class="audience-chip">Dentists &amp; Dental Hygienists</div>
-          <div class="audience-chip">Medical Professionals</div>
-          <div class="audience-chip">Addiction Counselors</div>
-          <div class="audience-chip">Mental Health Providers</div>
-          <div class="audience-chip">Churches &amp; Faith Communities</div>
-          <div class="audience-chip">Local Businesses</div>
-          <div class="audience-chip">Property Owners</div>
-          <div class="audience-chip">Veteran Support Groups</div>
-        </div>
-
-        <div class="text-center mt-6 fade-up">
-          <a href="get-involved.html" class="btn btn-primary btn-lg">Get Involved Today</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ══ FINAL CTA ══════════════════════════════════ -->
-    <section class="final-cta" aria-labelledby="final-cta-heading">
-      <div class="container">
-        <p class="quote-headline" id="final-cta-heading">
-          "The worst that can happen is one person gets another chance."
-        </p>
-        <p class="quote-sub">
-          "The best that can happen is that whole communities begin to heal."
-        </p>
-        <div class="btn-group" style="justify-content: center;">
-          <a href="donate.html" class="btn btn-primary btn-lg">Donate Now</a>
-          <a href="get-involved.html" class="btn btn-outline-navy btn-lg">Get Involved</a>
-          <a href="contact.html" class="btn btn-outline-navy btn-lg">Contact Us</a>
-        </div>
-      </div>
-    </section>
-
+    <section class="donation-band" aria-labelledby="donate-cta-heading"><div class="container"><span class="section-label" style="color:rgba(255,255,255,.7);">GoFundMe Campaign Active</span><h2 id="donate-cta-heading">Help Put Hope Into Motion</h2><p>Every donation helps move this mission from vision to action.</p><div class="btn-group" style="justify-content:center;gap:14px;"><a href="https://gofund.me/284ebbb2e" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">Support the Mission on GoFundMe</a><a href="donate.html" class="btn btn-secondary btn-lg">Learn How to Give</a></div></div></section>
   </main>
 
-  <!-- ══ FOOTER ══════════════════════════════════════ -->
-  <footer class="footer" role="contentinfo">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <h3>Skylar's Hope For Change</h3>
-          <p>A Phoenix-based nonprofit initiative bringing mobile care, recovery support, housing pathways, and acts of kindness to people impacted by addiction, homelessness, and trauma.</p>
-          <p class="footer-tagline">"Hope for change through acts of kindness"</p>
-        </div>
-        <div class="footer-col">
-          <h4>Navigate</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">Our Story</a></li>
-            <li><a href="programs.html">Programs</a></li>
-            <li><a href="get-involved.html">Get Involved</a></li>
-            <li><a href="donate.html">Donate</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Get Involved</h4>
-          <ul>
-            <li><a href="get-involved.html#volunteer">Volunteer</a></li>
-            <li><a href="get-involved.html#partner">Partner With Us</a></li>
-            <li><a href="get-involved.html#sponsor">Sponsor</a></li>
-            <li><a href="https://gofund.me/284ebbb2e" target="_blank" rel="noopener">Donate on GoFundMe</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Contact</h4>
-          <div class="footer-contact-row">
-            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.42 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.18 6.18l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            <a href="tel:+16234511147">623-451-1147</a>
-          </div>
-          <div class="footer-contact-row">
-            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            Phoenix, Arizona
-          </div>
-          <div class="footer-contact-row">
-            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            <a href="contact.html">Send a Message</a>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Skylar's Hope For Change. All rights reserved. | Phoenix, Arizona</p>
-        <div class="footer-bottom-links">
-          <a href="#">Privacy Policy</a>
-          <a href="#">501(c)(3) Status Pending</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <footer class="footer" role="contentinfo"><div class="container"><div class="footer-grid">
+    <div class="footer-brand"><h3>Skylar's Hope For Change</h3><p>A Phoenix-based nonprofit initiative bringing mobile care, recovery support, housing pathways, and acts of kindness to people impacted by addiction, homelessness, and trauma.</p><p class="footer-tagline">“Hope for change through acts of kindness”</p></div>
+    <div class="footer-col"><h4>Navigate</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">Our Story</a></li><li><a href="programs.html">Programs</a></li><li><a href="get-involved.html">Get Involved</a></li><li><a href="donate.html">Donate</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div class="footer-col"><h4>Get Involved</h4><ul><li><a href="get-involved.html#volunteer">Volunteer</a></li><li><a href="get-involved.html#partner">Partner With Us</a></li><li><a href="get-involved.html#sponsor">Sponsor</a></li><li><a href="https://gofund.me/284ebbb2e" target="_blank" rel="noopener">Donate on GoFundMe</a></li></ul></div>
+    <div class="footer-col"><h4>Contact</h4><div class="footer-contact-row">623-451-1147</div><div class="footer-contact-row">Phoenix, Arizona</div><div class="footer-contact-row"><a href="contact.html">Send a Message</a></div></div>
+  </div><div class="footer-bottom"><p>&copy; 2026 Skylar's Hope For Change. All rights reserved. | Phoenix, Arizona</p><div class="footer-bottom-links"><a href="#">Privacy Policy</a><span>501(c)(3) Verified</span></div></div></div></footer>
 
+  <style>
+    @media (max-width: 900px) {
+      .hero .container { grid-template-columns: 1fr !important; gap: 24px !important; }
+      .hero .container > div:last-child { min-height: 260px !important; }
+      .hero .container > div:last-child img { width: min(92%,520px) !important; }
+    }
+  </style>
   <script src="script.js"></script>
 </body>
 </html>
