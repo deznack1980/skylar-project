@@ -737,6 +737,11 @@ strong { color: var(--text-dark); font-weight: 600; }
   border-radius: var(--radius-lg);
 }
 
+.story-wrap .story-portrait {
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
 /* =====================================================
    IMPACT VISION (dark bg)
    ===================================================== */
@@ -1315,7 +1320,7 @@ select.form-control {
   .grid-4 { grid-template-columns: repeat(2, 1fr); }
   .mission-layout { grid-template-columns: 1fr; gap: 40px; }
   .story-wrap { grid-template-columns: 1fr; gap: 36px; padding: 44px; }
-  .story-wrap .photo-placeholder { aspect-ratio: 16/9; }
+  .story-wrap .story-portrait { aspect-ratio: 16/9; }
   .contact-layout { grid-template-columns: 1fr; gap: 40px; }
   .contact-sidebar { position: static; }
 }
