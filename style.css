@@ -133,6 +133,44 @@ strong { color: var(--text-dark); font-weight: 600; }
 
 .section { padding: var(--section-py) 0; }
 
+.leadership-v2 { background: #fff; }
+.leadership-head { max-width: 680px; margin: 0 auto 40px; }
+.leadership-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: stretch;
+}
+.leader-card {
+  flex: 1 1 170px;
+  min-width: 170px;
+  max-width: 100%;
+  padding: 24px 20px;
+  border: 1px solid rgba(58, 24, 96, 0.1);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 6px 22px rgba(37, 20, 55, 0.05);
+}
+.leader-card span {
+  display: block;
+  color: #c7157b;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+}
+.leader-card h3 { font-size: 1.15rem; margin-bottom: 13px; }
+.leader-card a {
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+  color: var(--text-light);
+}
+.leader-card a:hover { color: #c7157b; }
+
 .section-label {
   display: inline-block;
   font-size: 0.75rem;
