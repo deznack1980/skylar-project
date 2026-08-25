@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://skylarshopeforchange.org/sitemap.xml
